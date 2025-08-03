@@ -3,15 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    <title>Document</title>
+    <title>Electronics - Premium Electrical Appliances</title>
+    <meta name="description" content="Discover cutting-edge electrical appliances that combine innovation, efficiency, and style for the modern home.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-
-
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-bolt"></i>
+                <span>Electronics</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products" class="nav-link">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Power Your Home with Premium Appliances</h1>
+                <p class="hero-subtitle">Discover cutting-edge electrical appliances that combine innovation, efficiency, and style for the modern home.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Explore Products</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="appliance-showcase">
+                    <div class="appliance-item" data-appliance="refrigerator">
+                        <i class="fas fa-snowflake"></i>
+                        <span>Refrigerators</span>
+                    </div>
+                    <div class="appliance-item" data-appliance="washing-machine">
+                        <i class="fas fa-tshirt"></i>
+                        <span>Washing Machines</span>
+                    </div>
+                    <div class="appliance-item" data-appliance="microwave">
+                        <i class="fas fa-microchip"></i>
+                        <span>Microwaves</span>
+                    </div>
+                    <div class="appliance-item" data-appliance="tv">
+                        <i class="fas fa-tv"></i>
+                        <span>TVs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script src="app.js"></script>
 
 </body>
 </html>
+
