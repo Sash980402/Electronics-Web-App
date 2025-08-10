@@ -1,24 +1,28 @@
 /* Contact Page CSS - White and Blue Theme - Matching HTML Structure */
 
 /* Reset and Base Styles */
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .contact-hero {
-    
     background: linear-gradient(2deg, #5959f3 0%, #4040eb 100%);
     color: rgb(15, 15, 15);
     text-align: justify;
     padding: 10px 10px 40px;
     margin-bottom: 40px;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-container {
-    max-width: 1500;
-    margin:0%;
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
-
 }
 
 .contact-hero p {
